@@ -1,3 +1,4 @@
+Read docs/vision.md.
 You are a product manager and CFD expert.
 
 Create a complete PRD for a SaaS platform called DataCenterFlow.
@@ -17,3 +18,4 @@ Generate:
 5. API design
 6. Database design
 7. Deployment architecture
+

@@ -1,0 +1,22 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          time_zone: UTC
+
+temporal:
+  host: localhost:7233
+  namespace: default
+
+fastapi:
+  url: http://localhost:8001
+
+supabase:
+  url: http://localhost:54321
+  anon-key: test-anon-key
+  service-role-key: test-service-role-key
+  jwt-secret: test-jwt-secret-that-is-at-least-32-chars-long

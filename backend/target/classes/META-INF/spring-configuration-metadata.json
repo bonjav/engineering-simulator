@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "name": "fastapi",
+      "type": "com.datacenterflow.simulation.adapter.out.engine.FastApiProperties",
+      "sourceType": "com.datacenterflow.simulation.adapter.out.engine.FastApiProperties"
+    },
+    {
+      "name": "supabase",
+      "type": "com.datacenterflow.infrastructure.security.SupabaseProperties",
+      "sourceType": "com.datacenterflow.infrastructure.security.SupabaseProperties"
+    },
+    {
+      "name": "supabase.storage",
+      "type": "com.datacenterflow.cad.adapter.out.storage.SupabaseStorageProperties",
+      "sourceType": "com.datacenterflow.cad.adapter.out.storage.SupabaseStorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "fastapi.url",
+      "type": "java.lang.String",
+      "sourceType": "com.datacenterflow.simulation.adapter.out.engine.FastApiProperties"
+    },
+    {
+      "name": "supabase.anon-key",
+      "type": "java.lang.String",
+      "sourceType": "com.datacenterflow.infrastructure.security.SupabaseProperties"
+    },
+    {
+      "name": "supabase.jwt-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.datacenterflow.infrastructure.security.SupabaseProperties"
+    },
+    {
+      "name": "supabase.service-role-key",
+      "type": "java.lang.String",
+      "sourceType": "com.datacenterflow.infrastructure.security.SupabaseProperties"
+    },
+    {
+      "name": "supabase.storage.bucket",
+      "type": "java.lang.String",
+      "sourceType": "com.datacenterflow.cad.adapter.out.storage.SupabaseStorageProperties"
+    },
+    {
+      "name": "supabase.storage.signed-url-expiry-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.datacenterflow.cad.adapter.out.storage.SupabaseStorageProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "supabase.url",
+      "type": "java.lang.String",
+      "sourceType": "com.datacenterflow.infrastructure.security.SupabaseProperties"
+    }
+  ],
+  "hints": []
+}
